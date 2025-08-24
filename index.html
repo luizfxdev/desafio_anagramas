@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solucionador de Anagramas</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Solucionador de Anagramas</h1>
+      <p class="description">
+        Digite uma palavra ou frase para encontrar todos os anagramas possíveis de acordo com as palavras fornecidas no
+        <a href="https://osprogramadores.com/desafios/d06/words.txt" target="_blank" rel="noopener noreferrer"
+          >"Words.txt"</a
+        >
+      </p>
+
+      <div class="input-section">
+        <label for="expressionInput">Expressão:</label>
+        <input type="text" id="expressionInput" placeholder="Digite sua palavra ou frase aqui" maxlength="16" />
+        <div class="char-counter"><span id="charCount">0</span>/16 caracteres</div>
+      </div>
+
+      <div class="button-section">
+        <button id="calculateBtn">CRIAR ANAGRAMA</button>
+        <button id="returnBtn">REINICIAR</button>
+      </div>
+      <br />
+      <br />
+      <div class="result-section">
+        <h3>Resultado:</h3>
+        <div id="loadingMessage" class="loading hidden">
+          <div class="spinner"></div>
+          <p>Calculando anagramas...</p>
+        </div>
+        <div id="errorMessage" class="error hidden"></div>
+        <div id="calculationInfo" class="calculation-info hidden"></div>
+        <div id="resultOutput" class="result-output"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
