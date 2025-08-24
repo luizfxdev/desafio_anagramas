@@ -1,6 +1,7 @@
-Solucionador de Anagramas
+✨  Solucionador de Anagramas
 
 O Solucionador de Anagramas é uma aplicação web moderna que encontra todos os anagramas possíveis de uma palavra ou frase, utilizando um dicionário de mais de 400.000 palavras em inglês. Com um design cyberpunk inspirado no futuro e animações suaves, oferece uma experiência única para resolver este clássico desafio da programação.
+
 🎯 O que são Anagramas?
 Um anagrama é uma palavra ou frase formada com o rearranjo de todas as letras de outra palavra ou frase, sem sobra ou falta.
 Exemplos:
